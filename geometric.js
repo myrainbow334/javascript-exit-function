@@ -1,4 +1,4 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-console.log(1 +  "2" + "2");
-function myAPITS(someString: string, someNum: number) { ... };
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log("1 || 2 = "+(1 || 2));
+const updated = numbers.filter(element => element > 6);
+const randomString = () => Math.random().toString(36).slice(2);
