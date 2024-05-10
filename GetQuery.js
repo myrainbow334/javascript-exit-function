@@ -1,5 +1,2 @@
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-const toggleBool = () => (bool = !bool);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-console.log(1 +  +"2" + "2");
+const reversedString = str => str.split('').reverse().join('');
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
