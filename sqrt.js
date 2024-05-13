@@ -1,3 +1,3 @@
-console.log(typeof typeof 1);
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-console.log("1 || 2 = "+(1 || 2));
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const merge = [...new Set(a.concat(b))];
+const isEmptyObject = obj => Object.keys(obj).length === 0;
