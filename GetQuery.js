@@ -1,2 +1,3 @@
-const reversedString = str => str.split('').reverse().join('');
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const isTabInView = () => !document.hidden;
+const toggleBool = () => (bool = !bool);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
