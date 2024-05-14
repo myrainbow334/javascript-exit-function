@@ -1,2 +1,2 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+console.log("1 || 2 = "+(1 || 2));
