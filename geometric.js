@@ -1,2 +1,2 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-console.log("1 || 2 = "+(1 || 2));
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const merge = [...new Set(a.concat(b))];
