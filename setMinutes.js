@@ -1,3 +1,2 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+console.log(+"1" +  "1" + "2");
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
