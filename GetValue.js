@@ -1,3 +1,1 @@
-var arr3 = "jones".split('');
-const allResults = await Promise.all(items.map(async (item) => {}));
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
