@@ -1,3 +1,2 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-console.log("0 || 1 = "+(0 || 1));
-const uniqueArray = arr => [...new Set(arr)];
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+console.log(1 +  +"2" + "2");
