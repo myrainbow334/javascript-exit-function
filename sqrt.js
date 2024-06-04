@@ -1,3 +1,3 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+console.log( "A" - "B" + 2);
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
