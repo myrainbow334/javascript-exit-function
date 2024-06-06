@@ -1,3 +1,3 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-[foo, bar] = [bar, foo];
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
