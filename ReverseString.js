@@ -1,3 +1,2 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const flattenedArray = arr => [].concat(...arr);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
