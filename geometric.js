@@ -1,3 +1,3 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const isEven = (num) => num % 2 === 0;
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
