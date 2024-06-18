@@ -1,3 +1,2 @@
-console.log(typeof typeof 1);
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const goToTop = () => window.scrollTo(0, 0);
+const executableName = getExecutableName(channel, appName);
