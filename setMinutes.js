@@ -1,2 +1,3 @@
-const appName = getAppName(channel);
-console.log(1 +  -"1" + "2");
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const randomString = () => Math.random().toString(36).slice(2);
+const executableName = getExecutableName(channel, appName);
