@@ -1,3 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const randomString = () => Math.random().toString(36).slice(2);
-const executableName = getExecutableName(channel, appName);
+const merge = (a, b) => a.concat(b);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
