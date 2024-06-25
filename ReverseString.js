@@ -1,3 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
