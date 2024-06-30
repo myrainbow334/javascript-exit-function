@@ -1,1 +1,2 @@
-const uniqueArray = arr => [...new Set(arr)];
+const minNumber = arr => Math.min(...arr);
+const maxNumber = arr => Math.max(...arr);
