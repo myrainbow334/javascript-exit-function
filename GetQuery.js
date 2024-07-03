@@ -1,3 +1,3 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const merge = Object.assign({}, obj1, obj2);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const toggleBool = () => (bool = !bool);
