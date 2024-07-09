@@ -1,2 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
