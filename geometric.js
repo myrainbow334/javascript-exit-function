@@ -1,2 +1,3 @@
+console.log(false === '0');
 const result = await makeHttpRequest(url);
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const maxNumber = arr => Math.max(...arr);
