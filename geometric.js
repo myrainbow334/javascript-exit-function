@@ -1,3 +1,2 @@
-const flattenedArray = arr => [].concat(...arr);
-var arr1 = "john".split('');
-console.log(1 +  +"2" + "2");
+const result = await makeHttpRequest(url);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
