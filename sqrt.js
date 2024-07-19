@@ -1,1 +1,2 @@
-var arr1 = "john".split('');
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log(1 +  -"1" + "2");
