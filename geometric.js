@@ -1,3 +1,3 @@
-const merge = (a, b) => a.concat(b);
-function myAPITS(someString: string, someNum: number) { ... };
-var c = new Counter(); c.add(); c.add(); c.add();
+const merge = [...new Set([...a, ...b])];
+console.log("1 || 2 = "+(1 || 2));
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
