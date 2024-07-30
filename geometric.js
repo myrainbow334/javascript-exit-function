@@ -1,3 +1,1 @@
-const merge = [...new Set([...a, ...b])];
-console.log("1 || 2 = "+(1 || 2));
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
