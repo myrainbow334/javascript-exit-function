@@ -1,2 +1,2 @@
-const appName = getAppName(channel);
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+console.log(1 +  +"2" + "2");
